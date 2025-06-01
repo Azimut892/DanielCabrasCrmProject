@@ -1,0 +1,66 @@
+{
+  "webresources": [
+    {
+      "profile": "default,debug",
+      "root": "Webresources/",
+      "solution": null,
+      "files": [
+        {
+          "uniquename": "new_/js/somefile.js",
+          "file": "new_\\js\\somefile.js",
+          "description": "",
+          "ts": null
+        },
+        {
+          "uniquename": "daca_checkAccountValue",
+          "file": "/JavaScript/CheckStatusReasonAccount.js",
+          "description": null,
+          "ts": null
+        }
+      ]
+    }
+  ],
+  "plugins": [
+    {
+      "profile": "default,debug",
+      "assemblypath": "bin\\Debug",
+      "classRegex": null
+    }
+  ],
+  "earlyboundtypes": [
+    {
+      "entities": "account,contact,quote",
+      "actions": "dev1_simpleaction",
+      "generateOptionsetEnums": true,
+      "generateGlobalOptionsets": false,
+      "generateStateEnums": true,
+      "filename": "EarlyBoundTypes.cs",
+      "classNamespace": "DanielCabrasHsoProject",
+      "serviceContextName": "XrmSvc"
+    }
+  ],
+  "solutions": [
+    {
+      "profile": "default,debug",
+      "solution_uniquename": "spkltestsolution",
+      "packagepath": "package",
+      "solutionpath": "solution_{0}_{1}_{2}_{3}.zip",
+      "packagetype": "unmanaged",
+      "increment_on_import": false,
+      "map": [
+        {
+          "map": "path",
+          "from": "PluginAssemblies\\**\\*.*"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\*.*"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\**\\*.*"
+        }
+      ]
+    }
+  ]
+}
