@@ -1,4 +1,4 @@
-# Daniel Cabras CRM Project
+# Mircrosoft Dynamics CRM Project
 
 A comprehensive Microsoft Dynamics 365 CRM solution demonstrating advanced plugin development, custom business logic implementation, and role-based security controls.
 
