@@ -15,7 +15,7 @@ DanielCabrasCrmProject.CopyRecordTrigger = {
         const entityId = entityReference.id.replace('{', '').replace('}', '');
         const entityName = entityReference.entityType;
 
-        const actionName = "hso_copy_record_service";
+        const actionName = "daca_copy_record_service";
         const requestUrl = Xrm.Utility.getGlobalContext().getClientUrl() + "/api/data/v9.2/" + actionName;
 
         const data = {
